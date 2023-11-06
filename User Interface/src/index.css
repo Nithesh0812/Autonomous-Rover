@@ -1,0 +1,90 @@
+body {
+  background-image: url("bg.jpg");
+  font-family: "Lato","Avenir Next",Arial,sans-serif;
+  margin: 0;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card {
+  border: none;
+}
+
+.overlay {
+  position:absolute;
+  z-index:1;
+}
+
+.centered{
+  margin-left: 620px;
+  margin-top: 15px;
+}
+
+.header{
+  height:130px;
+  width:100%;
+  text-align: center;
+}
+
+input{
+  margin-top:50px;
+  padding:10px;
+  border-radius:5px;
+  border-color:white;
+  outline: none;
+  width: 300px;
+  font-size:medium;
+}
+.formu{
+  background-image: url('ls.jpg');
+}
+.map1{
+  text-align: center;
+}
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%; 
+}
+th, td {
+  background-color: #8fcfcf;
+}
+/* hr {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.contactuu{
+  background-image: url("ls.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+abbr:hover{
+  cursor: default;
+}
+
+select {
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
